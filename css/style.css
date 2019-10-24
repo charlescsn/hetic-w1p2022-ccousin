@@ -1,5 +1,4 @@
 .logo {
-  display: block;
   margin-left: 40%;
   margin-top: -85px;
   position: absolute;
@@ -21,7 +20,6 @@ p {
   color: white;
   margin-left: 20px;
   margin-right: 600px;
-  kerning: 2px;
   line-height: 20px;
   float: left;
   position: absolute;
@@ -39,14 +37,17 @@ h2 {
 }
 
 button {
-  position: absolute;
-  left: 22%;
-  bottom: 190px;
+  position: relative;
+  left: auto;
+  bottom: auto;
+  margin-top: 75px;
+  margin-left: 75px;
   background-color: grey;
   padding: 32px 16px;
   font-size: 24px;
   border-radius: 22px;
   border: 2px solid burlywood;
+  display: flex;
 }
 
 button:hover {
@@ -59,7 +60,9 @@ button:active {
   cursor: progress;
 }
 
-.bros {
-  width: 807px;
-  margin-top: 305px;
+.fTree {
+  left: auto;
+  position: relative;
+  width: 2136.5px;
+  height: 934.75px;
 }
