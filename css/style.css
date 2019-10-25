@@ -1,7 +1,7 @@
 .logo {
   margin-left: 40%;
-  margin-top: -85px;
-  position: absolute;
+  margin-top: 0%;
+  width: 30%;
 }
 
 body {
@@ -13,35 +13,30 @@ body {
   margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
-  width: 800px;
+  width: 90%;
 }
 
 p {
+  text-align: center;
   color: white;
-  margin-left: 20px;
-  margin-right: 600px;
   line-height: 20px;
-  float: left;
-  position: absolute;
+  margin: auto;
+  width: 50%;
+  justify-content: center;
 }
 
 .tommy {
-  width: 525px;
-  float: right;
+  width: 75%;
   position: relative;
-}
-
-h2 {
-  text-align: left;
-  color: white;
+  justify-content: flex-end;
 }
 
 button {
-  position: relative;
   left: auto;
   bottom: auto;
-  margin-top: 75px;
-  margin-left: 75px;
+  margin-top: 5%;
+  margin-left: 28%;
+  margin-bottom: 5%;
   background-color: grey;
   padding: 32px 16px;
   font-size: 24px;
